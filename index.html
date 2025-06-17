@@ -42,7 +42,7 @@
       <button id="bookSubmit" type="submit">Masukkan Buku ke rak <span>Belum selesai dibaca</span></button>
     </form>
   </section>
-
+  
   <section class="search_section">
     <h2>Cari Buku kamu Disini</h2>
     <form id="searchBook">
@@ -51,18 +51,31 @@
       <button id="searchSubmit" type="submit">Cari</button>
     </form>
   </section>
-
+  
   <section class="book_shelf">
     <h2>Belum selesai dibaca</h2>
-    <div id="incompleteBookshelfList" class="book_list"></div>
-  </section>
+    
+    <div id="incompleteBookshelfList" class="book_list">
+      <article class="book_item">
 
+        <div class="action"></div>
+      </article>
+    </div>
+  </section>
+  
   <section class="book_shelf">
     <h2>Selesai dibaca</h2>
-    <div id="completeBookshelfList" class="book_list"></div>
+    
+    <div id="completeBookshelfList" class="book_list">
+      <article class="book_item">
+        
+        <div class="action"></div>
+      </article>
+    </div>
   </section>
 </main>
 
 <script src="main.js"></script>
+
 </body>
 </html>
